@@ -1,0 +1,54 @@
+/*Background image modification*/
+.appMount-2yBXZl {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    /* background-image: var(--background-image); */
+    /* background-size: 100% 100% !important; */
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+/* Time Stamp colors*/
+.theme-dark .timestamp-3ZCmNB {
+    color: rgb(0, 185, 185);
+}
+/*Main Chat Text*/
+:root {
+    --text-normal: rgb(223, 223, 223);
+  }
+
+/*User Popout BG*/
+
+.userPopout-2j1gM4{
+    display: flex;
+    position: flex;
+    /* background-image: url(https://i.imgur.com/U32o73t.jpg); */
+    background-size: 100% 100% !important;
+    border-radius: 25px!important;
+}
+.avatar-37jOim,
+.headerTop-3vNv-a,
+.body-3HBlXn,
+.footer-3UKYOU,
+.headerNormal-3KXFBt,
+.bannerOverlayPopout-1clJ34,
+.container-2wlB3z{
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    /* display:flex;
+    width:28vh; */
+}
+.aboutMeSection---MkQa,
+.body-3HBlXn{
+    padding-top: 12px;
+    background-color: rgb(0, 0, 0, 0);
+}
+.popoutBanner-19WKGg,
+.bodyInnerWrapper-26fQXj,
+.bannerOverlayPopout-1clJ34,
+.container-2wlB3z {
+    background-color: rgba(0, 0, 0, 0)!important;
+}
