@@ -1,4 +1,4 @@
-/*Background image modification*/
+/* V ADD CUSTOM CODE BELOW V */
 .appMount-2yBXZl {
     background-color: transparent;
     display: flex;
@@ -7,36 +7,20 @@
     overflow: hidden;
     position: absolute;
     width: 100vw;
-    /* background-image: var(--background-image); */
-    background-size: 100% 100% !important;
+    /* background-size: 100% 100% !important; */
     background-repeat: no-repeat !important;
     background-position: center center !important;
 }
-/* Time Stamp colors*/
-.theme-dark .timestamp-3ZCmNB {
-    color: rgb(0, 185, 185);
-}
-/*Main Chat Text*/
-:root {
-    --text-normal: rgb(223, 223, 223);
-  }
 
 /*User Popout BG*/
 
 .userPopout-2j1gM4{
     display: flex;
     position: flex;
-    /* background-image: url(https://i.imgur.com/U32o73t.jpg); */
     background-size: 100% 100% !important;
     border-radius: 25px!important;
 }
-.avatar-37jOim,
-.headerTop-3vNv-a,
-.body-3HBlXn,
-.footer-3UKYOU,
-.headerNormal-3KXFBt,
-.bannerOverlayPopout-1clJ34,
-.container-2wlB3z{
+.avatar-2Vndt_{
     background-color: rgba(0, 0, 0, 0.5)!important;
     /* display:flex;
     width:28vh; */
@@ -46,9 +30,111 @@
     padding-top: 12px;
     background-color: rgb(0, 0, 0, 0);
 }
-.popoutBanner-19WKGg,
-.bodyInnerWrapper-26fQXj,
-.bannerOverlayPopout-1clJ34,
-.container-2wlB3z {
-    background-color: rgba(0, 0, 0, 0)!important;
+/* Big User Popout */
+
+.root-8LYsGj{
+    background-size: 100% 100% !important;
+    border-radius: 25px!important;
 }
+/* Premium Banner Edits */
+
+.popoutBannerPremium-3i5EEI {
+    background-size: flex;
+}
+
+.popoutBannerPremium-3i5EEI {
+    width: 300px; /*Change me to 0px to remove premium banner*/
+    height: 120px;
+}
+.bannerPremium-2hSAwz {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+/* Note and Dm section */
+.channel-textarea-inner textarea{
+    color:#000;
+    font-size: 14;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.message-group .comment .markup{
+    color: #8f8c8c;
+    font-size: 14px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+input, textarea {
+    color: rgb(233, 233, 233,)!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    font-family: 'PT Sans Caption', sans-serif!important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #d1d1d1!important;
+    font-size: 14px!important;
+    font-family: 'PT Sans Caption', sans-serif!important;
+} 
+/* Time Stamp colors*/
+.theme-dark,
+.cozy-VmLDNB,
+.timestamp-p1Df1m{
+    color: rgb(0, 185, 185)!important;
+}
+
+/* Channel category color */
+.name-3BUDLf.container-q97qHp .overflow-1wOqNV {
+    color: rgb(0, 255, 255);
+  }
+  .wrapper-1S43wv {
+    color: rgb(0, 255, 255);
+  }
+  .mainContent-uDGa6R .container-36u7Lw {
+    color: rgb(0, 255, 255);
+  }
+  .wrapper-1S43wv.muted-19J0ih:hover .icon-3zI3d2,
+  .wrapper-1S43wv.muted-19J0ih:hover .name-3BUDLf,
+  .wrapper-1S43wv:hover .icon-3zI3d2,
+  .wrapper-1S43wv:hover .name-3BUDLf {
+    color: var(--category-hover-color);
+  }
+  
+  /* DAY CONTAINER */
+.content-3spvdd {
+    color: rgb(150, 150, 150);
+    background: transparent;
+  }
+  
+  
+ /* .item-2LIpTv {
+    position: absolute;
+    display: block;
+    width: 8px;
+    border-radius: 0 4px 4px 0;
+    margin-left: -4px;
+    background-color: var(--header-primary);
+} */
+
+/* .item-2LIpTv
+{animation:var(--unread-server-animation)3s 
+    linear infinite;border:2px 
+    solid var(--main-theme-color);
+    background:0 0;
+    border-radius:100%;
+    display:block;
+    margin-left:0;
+    margin-top:0;
+    position:absolute;
+    top:-2px;
+    right:3px!important;
+    width:48px;
+    height:48px!important;
+    transform:none!important}
+    .wrapper-1_HaEi 
+    .scroller-3X7KbA>div
+    .listItem-GuPuDH:nth-child(1)
+     .item-2LIpTv{opacity:0!important}
+     .item-2LIpTv:not([style*="height: 8px"]){border-color:transparent;background-color:initial}
+      */
