@@ -31,10 +31,17 @@
     background-color: rgb(0, 0, 0, 0);
 }
 /* Big User Popout */
+.profileBannerPremium-KD60EB {
+    width: 600px;
+    height: 240px;
+}
 
 .root-8LYsGj{
     background-size: 100% 100% !important;
     border-radius: 25px!important;
+    display: flex;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
 }
 /* Premium Banner Edits */
 
@@ -106,7 +113,6 @@ textarea::-webkit-input-placeholder {
     color: rgb(150, 150, 150);
     background: transparent;
   }
-  
   
  /* .item-2LIpTv {
     position: absolute;
